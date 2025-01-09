@@ -12,3 +12,18 @@
 ----
 
 ## Jan-Apr 2025 Schedule
+
+### Jan 9 (W01)
+
+- Course Introduction
+- GitHub Account Setup
+- Software Setup
+
+### Jan 10
+
+- Workbook Setup
+  - [000](./src/000/ReadMe.md)
+  - [001](./src/001-StartHere/ReadMe.md)
+  - [002](./src/002/ReadMe.md)
+
+----
