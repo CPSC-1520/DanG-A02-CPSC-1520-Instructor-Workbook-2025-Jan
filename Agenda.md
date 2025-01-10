@@ -26,4 +26,122 @@
   - [001](./src/001-StartHere/ReadMe.md)
   - [002](./src/002/ReadMe.md)
 
+## Jan 13
+
+
+## Jan 16
+
+
+## Jan 17
+
+
+## Jan 20
+
+
+## Jan 23
+
+
+## Jan 24
+
+
+## Jan 27
+
+
+## Jan 30
+
+
+## Jan 31
+
+
+## Feb 03
+
+
+## Feb 06
+
+
+## Feb 07
+
+
+## Feb 10
+
+
+## Feb 13
+
+
+## Feb 14
+
+
+## Feb 24
+
+
+## Feb 27
+
+
+## Feb 28
+
+
+## Mar 03
+
+
+## Mar 06
+
+
+## Mar 07
+
+
+## Mar 10
+
+
+## Mar 13
+
+
+## Mar 14
+
+
+## Mar 17
+
+
+## Mar 20
+
+
+## Mar 21
+
+
+## Mar 24
+
+
+## Mar 27
+
+
+## Mar 28
+
+
+## Mar 31
+
+
+## Apr 03
+
+
+## Apr 04
+
+
+## Apr 07
+
+
+## Apr 10
+
+
+## Apr 11
+
+
+## Apr 14
+
+
+## Apr 17
+
+
+## Apr 24
+
+
+## Apr 25
 ----
