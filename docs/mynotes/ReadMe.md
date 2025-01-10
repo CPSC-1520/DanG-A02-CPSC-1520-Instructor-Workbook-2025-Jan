@@ -6,7 +6,12 @@ Your first learning adventure should begin with [**Mastering Markdown**](https:/
 
 ## Table of Contents
 
-> *Create an un-ordered list here for your own table of contents, and add links to additional Markdown pages in this folder.*
+- [My Journal](./Journal.md)
+- [`git` Commands](./git-commands.md)
+
+> ***Note to self:** I should put effort into using meaningful descriptions in my commit messages!
+>
+> ![XKCD Commit Message](https://imgs.xkcd.com/comics/git_commit.png)
 
 ----
 
