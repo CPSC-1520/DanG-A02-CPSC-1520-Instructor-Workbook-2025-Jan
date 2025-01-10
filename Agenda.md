@@ -18,11 +18,12 @@
 - Course Introduction
 - GitHub Account Setup
 - Software Setup
+- Workbook Setup
+  - [000](./src/000/ReadMe.md)
 
 ### Jan 10
 
-- Workbook Setup
-  - [000](./src/000/ReadMe.md)
+- Workbook Lessons
   - [001](./src/001-StartHere/ReadMe.md)
   - [002](./src/002/ReadMe.md)
 
