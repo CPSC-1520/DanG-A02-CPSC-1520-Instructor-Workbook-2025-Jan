@@ -48,6 +48,7 @@
     - Put it in your student workbook under `~/src/query-dom/`
   - Tutorial: [Using Script Tags](https://dgilleland.github.io/CPSC-1520/tutorials/0040/)
     - Put it in your student workbook under `~/src/script-tags/`
+  - Bookmark and read the docs on [Semantic HTML](https://developer.mozilla.org/en-US/curriculum/core/semantic-html/)
 
 ## Jan 16
 
