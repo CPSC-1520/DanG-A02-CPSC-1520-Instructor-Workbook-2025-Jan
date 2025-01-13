@@ -40,6 +40,14 @@
 - **Announcements**
   - **Quiz Readings** - Links for readings for individual quizzes can be found under the individual topics that the quizzes relate to. For convenience, I have posted a [*Summary of Quiz Readings*](./docs/QuizReadings.md). 
   - **Brightspace Content** - Topics on Brightspace were in the wrong order at the start of the term. The order has been corrected.
+- **Today**
+  - Practice Assignment (see Brightspace)
+  - [003](./src/003/ReadMe.md) Intro to JavaScript
+- **Homework**
+  - Tutorial: [Querying the DOM](https://dgilleland.github.io/CPSC-1520/tutorials/0030/)
+    - Put it in your student workbook under `~/src/query-dom/`
+  - Tutorial: [Using Script Tags](https://dgilleland.github.io/CPSC-1520/tutorials/0040/)
+    - Put it in your student workbook under `~/src/script-tags/`
 
 ## Jan 16
 
