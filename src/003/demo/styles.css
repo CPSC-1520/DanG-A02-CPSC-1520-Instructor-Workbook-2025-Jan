@@ -1,0 +1,19 @@
+header {
+    background-color: aqua;
+}
+
+footer {
+    background-color: navy;
+    color: aliceblue;
+}
+
+.active {
+    font-style: italic;
+}
+
+#top-banner {
+    float: right;
+    min-width: 200px;
+    min-height: 50px;
+    background-color: lightgreen;
+}
