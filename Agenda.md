@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-apr-2025-schedule).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-16).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -23,8 +23,9 @@
 
 ### Jan 10
 
-- Workbook Lessons
-  - [001](./src/001-StartHere/ReadMe.md)
+- **Today**
+  - Workbook Lessons
+    - [001](./src/001-StartHere/ReadMe.md)
 - **Homework**
   - Read [**Mastering Markdown**](https://guides.github.com/features/mastering-markdown/) (includes GFM - *GitHub-Flavored-Markdown*)
   - Complete the [Practice Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0020/) tutorial
@@ -43,6 +44,7 @@
 - **Today**
   - Practice Assignment (see Brightspace)
   - [003](./src/003/ReadMe.md) Intro to JavaScript
+    - HTML & Emmet in VS Code
 - **Homework**
   - Tutorial: [Querying the DOM](https://dgilleland.github.io/CPSC-1520/tutorials/0030/)
     - Put it in your student workbook under `~/src/query-dom/`
@@ -52,17 +54,43 @@
 
 ## Jan 16
 
+- **Today**
+  - [ ] Characteristics of JavaScript
+    - case-sensitive
+    - **not** a type-safe language
+    - looks a lot like C#, but has a number of differences
+    - string literals can be wrapped in double or single quotes
+    - string interpolation is performed with text inside a pair of back-ticks (`` ` ``)
+      - placeholders in the form of `${expression}`
+      - e.g.: `` `The count is` ${count}``
+  - [ ] ***Variables***
+  - [ ] The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
+  - [ ] Node also provides/is a REPL for JavaScript
+  - [ ] Complete [003](./src/003/ReadMe.md)
+  - [ ] Start [004](./src/004/ReadMe.md) (and review [its LOGs](./src/004/LOGs.md))
+    - Link a JavaScript file
+  - [ ] Begin [005](./src/005/ReadMe.md)
+    - Review [its LOGs](./src/005/LOGs.md)
+- **Homework**
+  - *Reminder to keep up with Quiz readings and completing the quizzes before their cutoff date.*
 
 ## Jan 17
 
+- **Today**
+- [x] Lab 1 released/due **today**
 
-## Jan 20
+----
+
+## Jan 20 (W03)
 
 
 ## Jan 23
 
 
 ## Jan 24
+
+
+----
 
 
 ## Jan 27
@@ -74,6 +102,9 @@
 ## Jan 31
 
 
+----
+
+
 ## Feb 03
 
 
@@ -83,6 +114,9 @@
 ## Feb 07
 
 
+----
+
+
 ## Feb 10
 
 
@@ -90,6 +124,9 @@
 
 
 ## Feb 14
+
+
+----
 
 
 ## Feb 24
