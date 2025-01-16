@@ -41,7 +41,7 @@
 - **Announcements**
   - **Quiz Readings** - Links for readings for individual quizzes can be found under the individual topics that the quizzes relate to. For convenience, I have posted a [*Summary of Quiz Readings*](./docs/QuizReadings.md). 
   - **Brightspace Content** - Topics on Brightspace were in the wrong order at the start of the term. The order has been corrected.
-- **Today**
+- **Today** *(Online)*
   - Practice Assignment (see Brightspace)
   - [003](./src/003/ReadMe.md) Intro to JavaScript
     - HTML & Emmet in VS Code
@@ -62,7 +62,7 @@
     - string literals can be wrapped in double or single quotes
     - string interpolation is performed with text inside a pair of back-ticks (`` ` ``)
       - placeholders in the form of `${expression}`
-      - e.g.: `` `The count is` ${count}``
+      - e.g.: `` `The count is ${count}` ``
   - [ ] ***Variables***
   - [ ] The browser's dev tools provides a **console** that is a REPL (Read-Eval-Print-Loop) environment for JavaScript
   - [ ] Node also provides/is a REPL for JavaScript
@@ -87,123 +87,242 @@
 
 ## Jan 20 (W03)
 
+- **Today** *(Online)*
+- **Homework**
+
 
 ## Jan 23
+
+- **Today**
+- **Homework**
 
 
 ## Jan 24
 
+- **Today**
+- **Homework**
 
 ----
 
+## Jan 27 (W04)
 
-## Jan 27
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Jan 30
 
+- **Today**
+- **Homework**
+
 
 ## Jan 31
+
+- **Today**
+- **Homework**
 
 
 ----
 
 
-## Feb 03
+## Feb 03 (W05)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Feb 06
 
+- **Today**
+- **Homework**
+
 
 ## Feb 07
+
+- **Today**
+- **Homework**
 
 
 ----
 
 
-## Feb 10
+## Feb 10 (W06)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Feb 13
 
+- **Today**
+- **Homework**
+
 
 ## Feb 14
+
+- **Today**
+- **Homework**
 
 
 ----
 
 
-## Feb 24
+## Feb 24 (W07)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Feb 27
 
+- **Today**
+- **Homework**
+
 
 ## Feb 28
 
+- **Today**
+- **Homework**
 
-## Mar 03
+----
+
+## Mar 03 (W08)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Mar 06
 
+- **Today**
+- **Homework**
+
 
 ## Mar 07
 
+- **Today**
+- **Homework**
 
-## Mar 10
+----
+
+## Mar 10 (W09)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Mar 13
 
+- **Today**
+- **Homework**
+
 
 ## Mar 14
 
+- **Today**
+- **Homework**
 
-## Mar 17
+----
+
+## Mar 17 (W10)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Mar 20
 
+- **Today**
+- **Homework**
+
 
 ## Mar 21
 
+- **Today**
+- **Homework**
 
-## Mar 24
+----
+
+## Mar 24 (W11)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Mar 27
 
+- **Today**
+- **Homework**
+
 
 ## Mar 28
 
+- **Today**
+- **Homework**
 
-## Mar 31
+----
+
+## Mar 31 (W12)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Apr 03
 
+- **Today**
+- **Homework**
+
 
 ## Apr 04
 
+- **Today**
+- **Homework**
 
-## Apr 07
+----
+
+## Apr 07 (W13)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Apr 10
 
+- **Today**
+- **Homework**
+
 
 ## Apr 11
 
+- **Today**
+- **Homework**
 
-## Apr 14
+----
+
+## Apr 14 (W14)
+
+- **Today** *(Online)*
+- **Homework**
 
 
 ## Apr 17
 
+- **Today**
+- **Homework**
 
-## Apr 24
+----
+
+## Apr 24 (W15)
+
+- **Today**
+- **Homework**
 
 
 ## Apr 25
+
+- **Today**
+- **Homework**
+
+
 ----
