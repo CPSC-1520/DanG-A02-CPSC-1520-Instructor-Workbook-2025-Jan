@@ -2,9 +2,20 @@
 // e.g. greetUser('Jane Doe');
 // e.g. greetUser(prompt('Name:'));
 
-function greetUser(username) {
+/**
+ * greetUser() modifies the intro header text with a custom message.
+ * @param {string} username The name of the vistor to the page
+ */
+const greetUser = function (username) {
+    // I have made greetUser a constant so that it cannot be changed!
     // select the h1
-    var mainTitle = document.querySelector('h1.intro');
+    let mainTitle = document.querySelector('h1.intro');
     // update the h1 inner HTML
-    mainTitle.innerHTML = 'Welcome ' + username + ' to ' + mainTitle.innerHTML;
+    mainTitle.innerHTML = 'Welcome <i>' + username + '</i> to ' + mainTitle.innerHTML;
 };
+
+greetUser(prompt('What is your name?'));
+//        \_______ string ___________/
+//             gets passed into
+//                 username
+//              of greetUser()
