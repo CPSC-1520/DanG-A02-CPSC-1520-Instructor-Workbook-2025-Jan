@@ -8,3 +8,16 @@
 
 	Use the skills you have learned up to this point.
 */
+console.log('main.js has loaded');
+// ask the user for the names of the parties to this legal agreement
+let discloser = prompt('What is the name of the disclosing party?');
+let receiver = prompt('What is the name of the receiving party?');
+
+let firstPlaceholder = document.querySelector('.disclosing-party');
+let secondPlaceholder = document.querySelector('.receiving-party');
+
+firstPlaceholder.innerText = discloser;
+secondPlaceholder.innerText = receiver;
+
+document.querySelector('.signature .disclosing-party').innerText = discloser;
+document.querySelector('.signature .receiving-party').innerText = receiver;
