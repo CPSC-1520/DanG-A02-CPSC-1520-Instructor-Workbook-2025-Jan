@@ -9,6 +9,17 @@
 > > My philosophy of teaching, taken from [the source](https://www.bible.com/bible/111/1TH.5.14.NIV)
 
 
+> ## Starter Kits
+>
+> To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook. Note that you will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the **root** of your repository:
+>
+> ```bash
+> pnpm dlx tiged --disable-cache --force dgilleland/CPSC-1520-Workbook/sk/-how-to- ./src/-how-to-
+> ```
+>
+> ***Note:** You may need to <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the `pnpm tlx tiged` command after it has finished downloading the demo folder.*
+
+
 ----
 
 ## Jan-Apr 2025 Schedule
