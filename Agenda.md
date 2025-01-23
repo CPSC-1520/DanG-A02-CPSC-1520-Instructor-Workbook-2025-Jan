@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-16).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-23).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -11,7 +11,9 @@
 
 > ## Starter Kits
 >
-> To grab a starting point for the demo, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte) to grab a copy of the demo folder from my workbook. Note that you will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the **root** of your repository:
+> To grab a starting point for any in-class demos or practices, you can use [**tiged**](https://github.com/tiged/tiged) (based on [`degit`](https://github.com/Rich-Harris/degit) by Rich Harris, creator of Svelte). It will allow you to grab a copy of the starter kit folder to put into your student workbook.
+> 
+> You will need to have `pnpm` installed and working on your computer. Run the following code in the terminal from the **root** of your repository:
 >
 > ```bash
 > pnpm dlx tiged --disable-cache --force dgilleland/CPSC-1520-Workbook/sk/-how-to- ./src/-how-to-
@@ -123,13 +125,42 @@
 
 ## Jan 23
 
+- [ ] Housekeeping Tasks:
+  - [ ] Getting the most out of ***LOGs** (Learning Outcome Guides)*
+  - [ ] Version Control: Updating Your Workbook (commit & push)
+  - [ ] [Downloading Starter Kits](#starter-kits)
+  - [ ] Filling the Gaps: Self-study is the only way to fill in the gaps between what you do and don't know about HTML.
+
+![HTML Iceberg](./docs/images/html-iceberg.jpg)
+
 - **Today**
+  - [**008**](./src/008/ReadMe.md) - Form Input and Handling Events
+    - [ ] A *soft introduction* to Events and Event Handling in web pages.
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/soft-intro ./src/008/soft-intro
+      ```
+
+    - [ ] Demo Events *(the older demo)*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/demo-events ./src/008/demo-events
+      ```
+
+    - Review [the lesson's LOGs](./src/008/LOGs.md)
+      - Demo creating an event handler
+      - Demo adding an event listener
+      - Demo **mouse** events such as `click`, `dblclick`, `mouseenter`, `mouseleave`, `mousemove`
+      - Demo adding and removing CSS classes programmatically (from `.classList`)
+      - Demo an anonymous handler for an event listener
 - **Homework**
+  - [ ] Ensure you have been making notes on all the LOG items in your student workbook and that you have committed and pushed those notes.
 
 
 ## Jan 24
 
 - **Today**
+  - [ ] **In-Class Lab 2**
 - **Homework**
 
 ----
