@@ -34,3 +34,11 @@ document.getElementById('register') // many ways to get this DOM element
 heading.addEventListener('dblclick', function(evt) {
     document.querySelector('html').dataset.theme = 'light';
 });
+
+// Most events in the DOM will "bubble" up the DOM tree unless explicitly stopped from bubbling.
+document.body.addEventListener('click', function() {
+    let output = document.querySelector('#feedback');
+    output.innerHTML += '<br />I heard that!';
+});
+// To stop the propagation, we can call .stopPropagation() on the event object.
+// TODO: In the H1's 'click' event handler, stop the event from bubbling.
