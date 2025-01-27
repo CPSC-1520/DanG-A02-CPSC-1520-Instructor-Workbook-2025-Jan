@@ -118,7 +118,7 @@
   - [ ] **Optional** - Styling Challenge (CSS only - no JavaScript)
 
     ```ps
-    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/005.5 ./src/005.5
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/005.5 ./src/005.5
     ```
 
 
@@ -167,7 +167,27 @@
 
 ## Jan 27 (W04)
 
+- **Starter Kits** for the today and the next class
+  - The *`demo-classlist`* starter kit is a simple demo for an ad-hoc demo in class
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-0 ./src/008/demo-classlist
+    ```
+
+  - The [*Text Manipulation*](./src/008/demo-text-manipulation/ReadMe.md) starter kit is where we can explore event handlers and input controls.
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/demo-text-manipulation ./src/008/demo-text-manipulation
+    ```
+
+  - The [*Form Processing*](./src/008/form-processing/ReadMe.md) starter kit moves us toward processing all the user input from a `<form>` in a single event handler.
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/008/form-processing ./src/008/form-processing
+    ```
+
 - **Today** *(Online)*
+  - The `.classList` property
 - **Homework**
 
 
