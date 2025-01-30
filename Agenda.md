@@ -189,6 +189,8 @@
 - **Today** *(Online)*
   - The `.classList` property
 - **Homework**
+  - [ ] Complete the [Event Listener tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0070/) and place it in your workbook at **`~/src/008/event-listener/`**
+  - [ ] Complete the [DOM Interactions tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0080/) and place it in your workbook at **`~/src/008/dom-styling/`**
 
 
 ## Jan 30
@@ -218,8 +220,9 @@
         appendLine(`Prefix increment: count is ${++count} and then ${count}`);
         ```
 
-- **Homework**
-  - [ ] Complete the [demo text manipulation](./src/008/demo-text-manipulation/ReadMe.md)
+- **Homework** (Items helpful for tomorrow's in-class lab)
+  - [ ] Complete the [Event Listener tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0070/) and place it in your workbook at **`~/src/008/event-listener/`**
+  - [ ] Complete the [DOM Interactions tutorial](https://dgilleland.github.io/CPSC-1520/tutorials/0080/) and place it in your workbook at **`~/src/008/dom-styling/`**
 
 
 ## Jan 31
@@ -228,6 +231,7 @@
   - [ ] Complete [Ad-hoc exploration of additional string and number functions/properties](./src/007/ad-hoc)
   - [ ] **In-Class Lab 3** - Notes on Specs
 - **Homework**
+  - [ ] Complete the [demo text manipulation](./src/008/demo-text-manipulation/ReadMe.md)
 
 
 ----
