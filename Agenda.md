@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-27-w04).
+> These are my notes on what I plan to teach in each [**upcoming class**](#jan-30).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -194,12 +194,39 @@
 ## Jan 30
 
 - **Today**
+  - [ ] [Form Processing](./src/008/)
+  - [ ] Ad-hoc exploration of additional string and number functions/properties
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/Demo-Steps ./src/007/ad-hoc
+    ```
+
+    - **`.length`** property
+    - `.padStart()` + `.padEnd()`, `.trim()` + `.trimLeft()` + `.trimRight()`, `.replace()` + `.replaceAll()`, `.toUpperCase()` + `.toLowerCase()`
+    - `.startsWith()`, `.endsWith()`, `.includes()`
+    - `.charAt()` and `.charCodeAt()`, `String.fromCharCode()`
+    - `Math` functions
+      - `.floor()`, `.ceil()`, `.round()`, `.min()`, `.max()`
+    - `.isNaN()`
+    - A sidenote about the short-hand Math operators
+      - `+=` et.al., `++` and `--` (prefix vs. postfix)
+
+        ```js
+        let count = 1;
+        appendLine(`Count starts out as ${count}`);
+        appendLine(`Postfix increment: count is ${count++} and then ${count}`);
+        appendLine(`Prefix increment: count is ${++count} and then ${count}`);
+        ```
+
 - **Homework**
+  - [ ] Complete the [demo text manipulation](./src/008/demo-text-manipulation/ReadMe.md)
 
 
 ## Jan 31
 
 - **Today**
+  - [ ] Complete [Ad-hoc exploration of additional string and number functions/properties](./src/007/ad-hoc)
+  - [ ] **In-Class Lab 3** - Notes on Specs
 - **Homework**
 
 
@@ -209,6 +236,8 @@
 ## Feb 03 (W05)
 
 - **Today** *(Online)*
+  - [ ] Complete assorted form in [Form Processing](./src/008/)
+  - [ ] If/Else
 - **Homework**
 
 
