@@ -21,8 +21,9 @@ document.getElementById('transformToUpperCase').addEventListener('click', functi
 // TODO: 1) Write the code to transform the user's input to lower case and display it
 //       STUDENT_CODE_HERE
 
+// Demo: 2) Write the code to pad the end of input text with the supplied character(s).
+// TODO:    Modify the code below to use the appropriate user input for padding.
 document.querySelector('#transformPadEnd').addEventListener('click', function() {
-    // TODO: 2) Modify the code below to use the appropriate user input for padding.
     let currentValue = 'bob';// userInput.value;
     let newValue = currentValue.padEnd(10, '^');
     output.innerText = newValue;
@@ -36,9 +37,7 @@ document.querySelector('#transformPadEnd').addEventListener('click', function() 
 
 // TODO: 6) Write the code to pad the start of input text with the supplied character(s).
 
-// TODO: 7) Write the code to pad the end of input text with the supplied character(s).
+// TODO: 7) Write the code to replace text in the user's input.
 
-// TODO: 8) Write the code to replace text in the user's input.
-
-// TODO: 6) Write the code to repeat the text the specified number of times on separate lines.
+// TODO: 8) Write the code to repeat the text the specified number of times on separate lines.
 
