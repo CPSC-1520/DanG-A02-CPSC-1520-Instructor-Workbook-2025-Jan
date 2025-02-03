@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#jan-30).
+> These are my notes on what I plan to teach in each [**upcoming class**](#feb-03-w05).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -244,7 +244,7 @@
 ## Feb 03 (W05)
 
 - **Today** *(Online)*
-  - [ ] **(20-25 min)** - [If-Else](./src/012/demo-grammar/ReadMe.md)
+  - [ ] **(20-25 min)** - [If-Else](./src/012/demo-grammar)
   - [ ] **(20+)** Ad-hoc If-Else demo
     - Starter Kit *(installs to `~/src/012/If-Else/`)*
 
