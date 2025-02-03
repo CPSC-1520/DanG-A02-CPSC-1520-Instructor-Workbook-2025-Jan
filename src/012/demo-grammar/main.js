@@ -21,3 +21,43 @@ Relational Operators
 <=      less than or equal to
 
 */
+
+let numberFive = 5;
+let numberEight = 8;   // literal number
+let stringEight = '8'; // literal string
+let myName = 'Dan';
+
+// Let's do a bit of if/else
+if(numberFive < numberEight)
+    console.log('Expected 5 < 8');
+
+// JavaScript allows for "truthy" and "falsy" values
+if(numberFive)
+    console.log('true side');
+else
+    console.log('false side');
+// other "truthy" values
+if(myName)
+    console.log(`${myName} is truthy`);
+
+// JavaScript "falsy" values
+const logTruth = function(value) {
+    if(value)
+        console.log(`'${value}' is truthy`);
+    else
+        console.log(`'${value}' is falsy`);
+}
+
+logTruth(0);
+logTruth('');
+logTruth(null);
+logTruth(undefined);
+logTruth(numberEight);
+logTruth(stringEight);
+let element = document.querySelector('h1'); // is on the page
+logTruth(element);
+element = document.querySelector('input'); // not on the page
+logTruth(element);
+logTruth({}); // An empty object
+element = {};
+logTruth(element);
