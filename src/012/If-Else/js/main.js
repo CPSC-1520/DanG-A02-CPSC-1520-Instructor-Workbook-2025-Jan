@@ -31,13 +31,25 @@ const compareValues = function(evt) {
     // <input name="rhSide" />
     let rightHand = elements.rhSide;
 
-    let lh = leftHand.value;
-    let rh = rightHand.value;
+    debugger; // this will pause execution
+
+    let lh = getValue(leftHand);
+    let rh = getValue(rightHand);
     if(lh && rh) {
         outputLine(`Comparing ${describeValue(lh)} to ${describeValue(rh)}`);
     } else {
         outputLine('One of the sides is empty');
     }
+}
+
+const getValue = function(inputControl) {
+    let result;
+    if(inputControl.type == 'number') {
+        result = parseFloat(inputControl.value);
+    } else {
+        result = inputControl.value;
+    }
+    return result;
 }
 
 const describeValue = function(value) {
