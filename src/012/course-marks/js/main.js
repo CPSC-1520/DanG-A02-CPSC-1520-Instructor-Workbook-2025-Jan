@@ -77,6 +77,13 @@ const addEvalItem = function (evt) {
   // Finish my processing
   if(isValid) {
     outputLine('Saving evaluation item.');
+    if(canCalculate) {
+      message = `You earned ${inputEarned.value}/${inputTotal.value} or <mark>${inputEarned.value / inputTotal.value * 100} %</mark>.`;
+      outputLine(message);
+      message = `That's worth <b>${(inputEarned.value / inputTotal.value) * inputWeight.value} %</b> of your final grade.`;
+      outputLine(message);
+    }
+
     // Clear the inputs
     inputName.value = '';
     inputWeight.value = '';
