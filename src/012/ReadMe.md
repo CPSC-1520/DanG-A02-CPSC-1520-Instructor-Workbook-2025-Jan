@@ -27,7 +27,7 @@ Relational operators do a comparison between two items (the LH or "Left-Hand sid
 -   **`==`** — "is equal to" - equality operator
 -   **`===`** — "is equal to" - identity operator
 -   **`!=`** — "is not equal to" - equality operator
--   **`!===`** — "is not equal to" - identity operator
+-   **`!==** — "is not equal to" - identity operator
 -   **`>`** — greater than
 -   **`<`** — less than
 -   **`>=`** — greater than or equal to
