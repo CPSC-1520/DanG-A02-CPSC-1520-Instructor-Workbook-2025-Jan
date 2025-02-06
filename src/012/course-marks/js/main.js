@@ -56,7 +56,9 @@ const addEvalItem = function (evt) {
 
   if(!isEmpty(inputTotal)) {
     if(!isEmpty(inputEarned)) {
-      if(inputEarned.value > inputTotal.value) {
+      let earned = getInputNumber(inputEarned);
+      let total = getInputNumber(inputTotal);
+      if(earned > total) {
         isValid = false;
         message = "<span class='error'>You cannot earn more than the total points.</span>";
         outputLine(message);
