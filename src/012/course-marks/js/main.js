@@ -80,10 +80,7 @@ const addEvalItem = function (evt) {
   if(isValid) {
     outputLine('Saving evaluation item.');
     if(canCalculate) {
-      message = `You earned ${inputEarned.value}/${inputTotal.value} or <mark>${inputEarned.value / inputTotal.value * 100} %</mark>.`;
-      outputLine(message);
-      message = `That's worth <b>${(inputEarned.value / inputTotal.value) * inputWeight.value} %</b> of your final grade.`;
-      outputLine(message);
+      displayMarks(getInputNumber(inputEarned), getInputNumber(inputTotal), getInputNumber(inputWeight));
     }
 
     // Clear the inputs
@@ -112,6 +109,15 @@ const isEmpty = function(inputElement) {
  */
 const getInputNumber = function(inputElement) {
   return parseFloat(inputElement.value);
+}
+
+const displayMarks = function(earned, total, weight) {
+  let avg = earned / total * 100;
+  let weightedAvg = avg * weight / 100;
+  message = `You earned ${earned}/${total} or <mark>${avg.toFixed(2)} %</mark>.`;
+  outputLine(message);
+  message = `That's worth <b>${weightedAvg.toFixed(1)} %</b> of your final grade.`;
+  outputLine(message);
 }
 
 /**
