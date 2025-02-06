@@ -103,7 +103,14 @@ const isEmpty = function(inputElement) {
   return (inputElement.value.trim() === '');
 }
 
-
+/**
+ * Processes the `<input type="number" />` element to get the value in numeric form.
+ * @param {HTMLInputElement} inputElement The element to get the value from
+ * @returns {number} - The value parsed as a float
+ */
+const getInputNumber = function(inputElement) {
+  return parseFloat(inputElement.value);
+}
 
 /**
  * Reports information about the last state of the form before the reset was applied to the input controls.
