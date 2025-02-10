@@ -13,7 +13,7 @@
 1. In the external terminal, run the script file with Node's *watch flag*.
 
     ```ps
-    node --watch conditionals.js
+    node --watch flow-control.js
     ```
 
 1. Now, every time you make edits to this script file, Node will re-run the code.
