@@ -324,7 +324,7 @@
     - Starter Kit *(installs to `~/src/014/`)*
 
       ```ps
-      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/014 ./src/014
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/014 ./src/014
       ```
 
   - [ ] Intro to Looping
