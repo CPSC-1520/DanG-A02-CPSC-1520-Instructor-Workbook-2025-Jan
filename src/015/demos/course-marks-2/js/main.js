@@ -65,6 +65,9 @@ const createForms = function (evt) {
   const elements = evt.target.elements;
   const inputCategory = elements.category;
   const inputQuantity = elements.quantity;
+
+  outputLine('Generating course evaluation forms...', true);
+
   let isValid = true; // optimistically
 
   if(inputCategory.value.trim() === '') {
@@ -75,7 +78,15 @@ const createForms = function (evt) {
     inputCategory.ariaInvalid = false;
   }
 
-  // TODO: Validate that the quantity is greater than zero and less than 10
+  // Validate that the quantity is greater than zero and less than 10
+  let quantity = parseFloat(inputQuantity.value);
+  if(inputQuantity.value === '' || quantity <= 0 || quantity >= 10) {
+    isValid = false;
+    outputLine('Quantities must be greater than zero and less than 10');
+    inputQuantity.ariaInvalid = true;
+  } else {
+    inputQuantity.ariaInvalid = false;
+  }
 
   if(isValid) {
     outputLine(`Create ${inputQuantity.value} forms for '${inputCategory.value}' items`, true);
