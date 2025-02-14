@@ -45,6 +45,16 @@ const buildFormHtml = function (evalName) {
 `;
 }
 
+const dataType = function (value) {
+  let result;
+  if(value == undefined || value == null) {
+      result = `The value is ${value}`;
+  } else {
+      result = `The data type is ${value.constructor.name}`;
+  }
+  return result;
+}
+
 /**
  * Generates additional forms for individual evaluation items in the course
  * @param {SubmitEvent} evt The event generated when the form is submitted
@@ -55,8 +65,31 @@ const createForms = function (evt) {
   const elements = evt.target.elements;
   const inputCategory = elements.category;
   const inputQuantity = elements.quantity;
-  outputLine(`Create ${inputQuantity.value} forms for '${inputCategory.value}' items`, true);
-}
+  let isValid = true; // optimistically
+
+  if(inputCategory.value.trim() === '') {
+    isValid = false;
+    outputLine('Category name is required');
+    inputCategory.ariaInvalid = true;
+  } else {
+    inputCategory.ariaInvalid = false;
+  }
+
+  // TODO: Validate that the quantity is greater than zero and less than 10
+
+  if(isValid) {
+    outputLine(`Create ${inputQuantity.value} forms for '${inputCategory.value}' items`, true);
+
+    //debugger; // Pause when the dev tools are open
+    let evalName = inputCategory.value;
+    let quantity = parseInt(inputQuantity.value);
+    let container = document.getElementById('evaluations');
+    for(let count = 1; count <= quantity; count++) {
+      let html = buildFormHtml(`${evalName} ${count}`);
+      container.innerHTML += html;
+    }
+  }
+} // end of createForms() event handler
 
 /**
  * Modifies evaluation items and displays the results in the output using @see `outputLine()`
