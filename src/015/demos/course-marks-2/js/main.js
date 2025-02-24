@@ -99,6 +99,10 @@ const createForms = function (evt) {
       let html = buildFormHtml(`${evalName} ${count}`);
       container.innerHTML += html;
     }
+    // Reset the form
+    inputCategory.value = '';
+    inputQuantity.value = '';
+    inputCategory.focus();
   }
 } // end of createForms() event handler
 
