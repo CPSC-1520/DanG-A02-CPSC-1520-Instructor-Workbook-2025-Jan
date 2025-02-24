@@ -185,6 +185,23 @@ const evalData = []; // An empty array
 const calculateGradeStatus = function (evt) {
   evt.preventDefault();
   // TODO: Part 3 - Explore all the marks recorded and update grade status
+  let form = evt.target;
+  console.log(form.elements);
+  // earned-weight
+  // remaining-weight
+  // total-weight
+  let outputTotal = form.elements['total-weight'];
+  let outputEarned = form.elements['earned-weight'];
+  let outputRemaining = form.elements['remaining-weight'];
+  let total = 0;
+  // Do the math...
+  for(let index = 0; index < evalData.length; index++) {
+    let item = evalData[index];
+    total += item.weight;
+    // TODO: Calculate the other parts
+  }
+
+  outputTotal.value = total;
 }
 
 // Register the form event handlers
