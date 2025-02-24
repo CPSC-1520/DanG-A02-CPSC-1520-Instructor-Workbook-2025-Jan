@@ -132,6 +132,7 @@ const editEvalItem = function (evt) {
   // TODO: Validate the inputs
   let isValid = true;
 
+  // (see earlier version of course-marks for valid evaluation item checks)
 
   // Process the inputs by adding/updating the global array
   if(isValid) {
