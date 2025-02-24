@@ -111,10 +111,71 @@ const createForms = function (evt) {
  * @param {SubmitEvent} evt The event generated when the form is submitted
  */
 const editEvalItem = function (evt) {
+  // This handler is listening to the container of
+  // all the individual course evaluation forms.
   evt.preventDefault();
   // TODO: Part 2 - Update information on the current evaluation item
   outputLine("User feedback on editing the evaluation item", true);
+  // Which form are we using?
+  const form = evt.target;
+  // Get the form's input elements...
+  console.log(form.elements);
+  // evalName
+  let inputName = form.elements.evalName;
+  // weight
+  let inputWeight = form.elements.weight;
+  // totalPoints
+  let inputTotal = form.elements.totalPoints;
+  // earnedPoints
+  let inputEarned = form.elements.earnedPoints;
+
+  // TODO: Validate the inputs
+  let isValid = true;
+
+
+  // Process the inputs by adding/updating the global array
+  if(isValid) {
+    // See if the eval item exists
+    let found = null;
+    for(let index = 0; index < evalData.length; index++) {
+      let item = evalData[index];
+      if(item.name === inputName.value) {
+        found = item;
+      }
+    }
+    // If so, then update it's details
+    if(found) { // a truthy conditional expression
+      found.weight = parseInt(inputWeight.value);
+      // short-hand way... (ternary expression)
+      found.total = isNaN(inputTotal.value) ?
+                   null : parseInt(inputTotal.value);
+      // long way...
+      if(isNaN(inputEarned.value)) {
+        found.earned = null;
+      } else {
+        found.earned = parseInt(inputEarned.value);
+      }
+    } else {
+      // Otherwise add this as a new evaluation item
+      // Create a new object literal
+      found = {
+        name: inputName.value,
+        weight: parseInt(inputWeight.value),
+        total: isNaN(inputTotal.value) ?
+               null : parseInt(inputTotal.value),
+        earned: isNaN(inputEarned.value) ?
+                null : parseInt(inputEarned.value)
+      }
+      // Add it to my array
+      evalData.push(found); // add to the end
+    }
+  }
 };
+
+// Use a global variable to store my course evaluation data
+const evalData = []; // An empty array
+// each element is an object:
+// { name: string, weight: number, total: number | null, earned: number | null }
 
 /**
  * Reviews all the recorded weights/marks in the `<section id='evaluations'>`
