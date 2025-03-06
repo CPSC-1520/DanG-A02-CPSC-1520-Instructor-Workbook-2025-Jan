@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>My Mark Manager</h1>
+        <section id="courses">
+            <template id="course-shell">
+                <details>
+                    <summary><span class="course-code"><slot name="course-code">PROG-0101</slot></span> <span class="course-name"><slot name="course-name">Programming Fundamentals (from the ground up)</slot></span></summary>
+                    <slot>Evaluation Items Here</slot>
+                </details>
+            </template>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
