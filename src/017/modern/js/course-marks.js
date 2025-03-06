@@ -8,4 +8,11 @@ const Course = function(courseCode, courseName) {
     this.evaluations = [];
 }
 
-export { Course }
+const EvaluationItem = function(name, weight, earned, possible) {
+    this.name = name;
+    this.weight = weight;
+    this.earned = earned;
+    this.possible = possible;
+}
+
+export { Course, EvaluationItem }
