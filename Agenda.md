@@ -422,6 +422,10 @@
 ## Mar 06
 
 - **Today**
+  - [ ] Modern JavaScript
+    - [ ] Node Projects
+    - [ ] JS Modules
+  - [ ] JSON
 - **Homework**
 
 
