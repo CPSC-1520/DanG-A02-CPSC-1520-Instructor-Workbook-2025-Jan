@@ -448,6 +448,11 @@
     ```
 - **Homework**
   - [ ] Review [Dana's CPSC-1520 Topic Summary](https://dmarshnait.github.io/cpsc1520/QuickReference)
+- **Notes**
+  - *For those who need to configure VS Code to open PowerShell instead of the cmd terminal, change these settings:*
+
+    ![](./docs/images/vs-code-settings-external-terminal-powershell.png);
+
 
 ----
 
