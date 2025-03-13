@@ -133,4 +133,14 @@ describe("EvaluationItem should", () => {
     // Act
     // Assert
   });
+
+  it('accept a 0 for earned points', () => {
+    // Arrange
+    let given = 0;
+    let sut = new EvaluationItem('Quiz 4', 15, given, 17);
+    // Act
+    let actual = sut.earned;
+    // Assert
+    expect(actual).toBe(given);
+  })
 });

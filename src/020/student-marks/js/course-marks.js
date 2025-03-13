@@ -4,6 +4,41 @@
  * @param {string} name The course name (e.g.: 'JavaScript Fundamentals')
  */
 const Course = function(code, name) {
+    // Properties
+    this.code = code;
+    this.name = name;
+    this.evaluations = [];
+
+    // Methods
+    this.getTotalWeight = function() {
+        let total = 0;
+        for(let index = 0; index < this.evaluations.length; index++) {
+            let item = this.evaluations[index];
+            total = total + item.weight;
+        }
+        return total;
+    }
+
+    this.getTotalEarned = function() {
+        let total = 0;
+        let marked = this.evaluations.filter(item => item.getPercent() !== null);
+        for(let index = 0; index < marked.length; index++) {
+            let item = marked[index];
+            total = total + item.getWeightedPercent();
+        }
+
+        return total;
+    }
+
+    this.getTotalUnmarked = function () {
+        let unmarked = this.evaluations.filter(x => x.getPercent() === null);
+        let total = unmarked.reduce(
+            // Callback function
+            (sum, item) => sum += item.weight,
+            // Initial value
+            0);
+        return total;
+    }
 }
 
 /**
@@ -30,7 +65,8 @@ const EvaluationItem = function(name, weight, earned, possible) {
     // Properties
     this.name = name;
     this.weight = weight;
-    this.earned = earned ? earned : null;
+    // ?? is the null coalescing operator
+    this.earned = earned ?? null;
     this.possible = possible ? possible : null;
 
     // Methods
