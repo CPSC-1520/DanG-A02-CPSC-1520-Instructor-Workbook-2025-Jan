@@ -510,6 +510,7 @@
 ## Mar 13
 
 - **Today**
+  - [ ] Work on [Student Marks example/tutorial](./sk/020/Tutorial.md)
 - **Homework**
 
 
