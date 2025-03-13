@@ -27,6 +27,30 @@ Course.fromJsonObject = function(obj) {
  * @param {number | null} possible The total possible points that can be earned on the evaluation item
  */
 const EvaluationItem = function(name, weight, earned, possible) {
+    // Properties
+    this.name = name;
+    this.weight = weight;
+    this.earned = earned ? earned : null;
+    this.possible = possible ? possible : null;
+
+    // Methods
+    this.getPercent = function() {
+        let result;
+        if(this.earned !== null) {
+            result = this.earned / this.possible * 100;
+        } else {
+            result = null;
+        }
+        return result;
+    }
+
+    this.getWeightedPercent = function() {
+        let result = this.getPercent();
+        if(result !== null) {
+            result = result * this.weight / 100;
+        }
+        return result;
+    }
 }
 
 export { Course, EvaluationItem }

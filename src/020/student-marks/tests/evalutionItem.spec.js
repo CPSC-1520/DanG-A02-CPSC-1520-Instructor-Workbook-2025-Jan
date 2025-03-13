@@ -25,7 +25,7 @@ describe("EvaluationItem should", () => {
     reject invalid earned points
     reject invalid total points
     */
-  it.todo("preserve name", () => {
+  it("preserve name", () => {
     // Arrange
     let name = 'Lab 1';
     // Act
@@ -34,7 +34,7 @@ describe("EvaluationItem should", () => {
     expect(actual.name).toBe(name);
   });
 
-  it.todo("preserve weight", () => {
+  it("preserve weight", () => {
     // Arrange
     let weight = 15;
     // Act
@@ -43,7 +43,7 @@ describe("EvaluationItem should", () => {
     expect(actual.weight).toBe(weight);
   });
   
-  it.todo("preserve earned points", () => {
+  it("preserve earned points", () => {
     // Arrange
     let earned = 12;
     // Act
@@ -52,7 +52,7 @@ describe("EvaluationItem should", () => {
     expect(actual.earned).toBe(earned);
   });
 
-  it.todo("preserve total points", () => {
+  it("preserve total points", () => {
     // Arrange
     let possible = 20;
     // Act
@@ -61,7 +61,7 @@ describe("EvaluationItem should", () => {
     expect(actual.possible).toBe(possible);
   });
 
-  it.todo.each([
+  it.each([
     { earned: 12, possible: 20, expected: 60 },
     { earned: null, possible: 20, expected: null }
   ])
@@ -73,7 +73,7 @@ describe("EvaluationItem should", () => {
     expect(actual.getPercent()).toBe(expected);
   });
 
-  it.todo.each([
+  it.each([
     { weight: 10, earned: 12, possible: 20, expected: 6 },
     { weight: 10, earned: null, possible: 20, expected: null }
   ])
@@ -92,7 +92,7 @@ describe("EvaluationItem should", () => {
   });
 
 
-  it.todo.each([
+  it.each([
     { given: undefined, expected: null },
     { given: null, expected: null }
   ])
@@ -105,14 +105,14 @@ describe("EvaluationItem should", () => {
     expect(actual).toBe(expected);
   });
 
-  it.todo.each([
+  it.each([
     { given: undefined, expected: null },
     { given: null, expected: null },
   ])("treat $given as $expected for possible points", ({ given, expected }) => {
     // Arrange
     let item = new EvaluationItem("Quiz 1", 15, null, given);
     // Act
-    let actual = item.earned;
+    let actual = item.possible;
     // Assert
     expect(actual).toBe(expected);
   });
