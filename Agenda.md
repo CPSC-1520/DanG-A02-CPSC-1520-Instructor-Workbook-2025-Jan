@@ -534,13 +534,18 @@
 - **Today**
   - [ ] Complete the [Student Marks example/tutorial](./src/020/Tutorial.md)
   - [ ] Using `async` and `await` with the Fetch API
+  - [ ] Creating `async` functions
 - **Homework**
 
 
 ## Mar 21
 
 - **Today**
-  - [ ] Timers and Intervals in JavaScript
+  - [ ] **In-Class Lab 6**
+    - You should know
+      - Fetch API
+      - Objects
+      - JSON
 - **Homework**
 
 ----
@@ -548,6 +553,7 @@
 ## Mar 24 (W11)
 
 - **Today** *(Online)*
+  - [ ] Timers and Intervals in JavaScript
   - [ ] Classes in JavaScript
 - **Homework**
 
@@ -580,6 +586,14 @@
 ## Apr 04
 
 - **Today**
+  - [ ] **In-Class Lab 7**
+    - You should know
+      - Load script files as modules
+      - Set up a Node project
+        - add Parcel
+        - add Other packages
+        - import CSS
+        - set up/run package.json scripts
 - **Homework**
 
 ----
@@ -625,6 +639,12 @@
 ## Apr 25
 
 - **Today**
+  - [ ] **In-Class Lab 8**
+    - You should know
+      - JavaScript classes
+        - Constructor function
+        - Member functions
+      - setInterval() and clearInterval()
 - **Homework**
 
 
