@@ -56,9 +56,60 @@ const populateCourseInformation = function(jsonData) {
         span.appendChild(mark);
         span.appendChild(textNode);
         
+        // Build out all the detailed evaluation items for the course.
+        // <section class="grid">
+        let grid = courseContainer.querySelector('.grid');
+
+        course.evaluations.forEach((item) => {
+            let itemElement = createEvaluationItemElement(item);
+            grid.appendChild(itemElement);
+        })
 
         container.appendChild(courseContainer);
     });
+}
+
+// TODO: Consolidate imports to top of file
+import { EvaluationItem } from './course-marks';
+
+const createEvaluationItemElement = 
+    function(/** @type {EvaluationItem} */ evalItem) {
+    // Get the details from the evalItem
+    // Destructuring syntax
+    let { name, weight, earned, possible } = evalItem;
+    let earnedWeight = evalItem.getWeightedPercent();
+    let earnedPercent = evalItem.getPercent();
+
+    // Build the document fragment
+    let div = document.createElement('div');
+    // TODO: populate with details
+    let textNode = document.createTextNode(`${name}:`);
+    let space = document.createTextNode(' ');
+    div.appendChild(textNode);
+    div.appendChild(space);
+    let tag = document.createElement('strong');
+    textNode = document.createTextNode(`${weight} %`);
+    tag.appendChild(textNode);
+    div.appendChild(tag);
+    let br = document.createElement('br');
+    div.appendChild(br);
+
+    if(earned) {
+        let text = `Earned ${earned}/${possible}`;
+        tag = document.createElement('small');
+        textNode = document.createTextNode(text);
+        tag.appendChild(textNode);
+        div.appendChild(tag);
+    } else {
+        textNode = document.createTextNode('TBD');
+        tag = document.createElement('em');
+        tag.appendChild(textNode);
+        div.appendChild(tag);
+    }
+    div.appendChild(br.cloneNode());
+
+    // TODO: figure out where to put the earnedWeight and earnedPercent values.
+    return div;
 }
 
 export { populateCourseInformation }
