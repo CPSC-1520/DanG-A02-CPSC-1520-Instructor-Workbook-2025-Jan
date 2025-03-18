@@ -525,16 +525,30 @@
 ## Mar 17 (W10)
 
 - **Today** *(Online)*
-  - [ ] Continue the [Student Marks example/tutorial](./src/020/Tutorial.md)
+  - [ ] Complete the [Student Marks example/tutorial](./src/020/Tutorial.md)
+
+  <!-- - [ ] Playing Card Demo (proof of concept)
+    - Starter Kit *(installs to [`~/src/020/student-marks`](./src/020/student-marks/ReadMe.md))*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/020/student-marks ./src/020/student-marks
+      ``` -->
+
 - **Homework**
 
 
 ## Mar 20
 
 - **Today**
-  - [ ] Complete the [Student Marks example/tutorial](./src/020/Tutorial.md)
-  - [ ] Using `async` and `await` with the Fetch API
   - [ ] Creating `async` functions
+  - [ ] Using `async` and `await` with the fetch API
+  - [ ] Complete the **await-fetch** example/tutorial
+    - Starter Kit *(installs to [`~/src/020/await-fetch`](./src/020/await-fetch/js/main.js))*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/020/await-fetch ./src/020/await-fetch
+      ```
+
 - **Homework**
 
 
