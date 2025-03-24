@@ -4,27 +4,35 @@
  * @param {number} width The width of the rectangle
  */
 const Rectangle = class {
-    #created;
-    height;
-    width;
+    // Properties
+    #created;   // private property - #
+    height;     // public property
+    width;      // public property
 
+    // Constructor for the class
     constructor(height, width) {
+        // ensure that the object's properties
+        // have meaningful values
+        // Accessing instance members of Rectangle object - this.
         this.height = height;
         this.width = width;
         this.#created = new Date();
+        // Accessing a static member of Rectangle class - using the name of the class
         Rectangle.#count++;
     }
 
-    static #count = 0;
+    // Static members are "shared" amongst all object
+    static #count = 0; // static private property
 
-    static get count() {
+    // static getter function
+    static get count() { // static public getter
         return Rectangle.#count;
     }
 
     /**
      * Outputs the time at which this rectangle was created.
      */
-    report() {
+    report() { // an instance function/method
         console.log(`This box was made on ${this.#created.toLocaleTimeString()}`);
     }
 
