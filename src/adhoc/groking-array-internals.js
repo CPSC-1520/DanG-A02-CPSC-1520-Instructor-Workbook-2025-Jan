@@ -4,9 +4,9 @@ let fib = [1,1,2,3,5,8,13,21,34]
 /* Insight into how the various Array methods work
     Array methods typically take a callback function as the argument/parameter
     - forEach(callback)
-    - find(callback)    find()
-    - fill(callback)    reserve(callback)
-    - push(value)       park(space, license)
+    - find(callback)
+    - push(value)  park(space, license)
+    - pop()        leave(space)
  */
 
 const ParkingLot = class {
