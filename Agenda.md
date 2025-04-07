@@ -641,18 +641,22 @@
 ## Apr 07 (W13)
 
 - **Today** *(Online)*
+  - [ ] Intro - Assignment 3
+  - [ ] Build a Calendar
 - **Homework**
 
 
 ## Apr 10
 
 - **Today**
+  - [ ] Work Period - Assignment 3
 - **Homework**
 
 
 ## Apr 11
 
 - **Today**
+  - [ ] Work Period - Assignment 3
 - **Homework**
 
 ----
@@ -660,12 +664,14 @@
 ## Apr 14 (W14)
 
 - **Today** *(Online)*
+  - [ ] Work Period - Assignment 3
 - **Homework**
 
 
 ## Apr 17
 
 - **Today**
+  - [ ] Work Period - Assignment 3
 - **Homework**
 
 ----
