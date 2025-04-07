@@ -1,7 +1,7 @@
-function buildDaySlot(date) {
+function buildDaySlot(text) {
     let div = document.createElement('div');
     let span = document.createElement('span');
-    let textNode = document.createTextNode(date.getDate());
+    let textNode = document.createTextNode(text);
     div.appendChild(span);
     span.appendChild(textNode);
     return div;
@@ -27,8 +27,16 @@ function buildCalendar(evt) {
 
     // Reset the calendar
     calendarContainer.innerHTML = '';
+
+    // Add the days of the week
+    const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    for (let count = 0; count < days.length; count++) {
+        calendarContainer.appendChild(buildDaySlot(days[count]));
+    }
+
+    // Add the dates of the month (e.g.: 1, 2, 3, etc.)
     for (let count = 0; count < 35; count++) {
         today.setDate(today.getDate() + 1); // Add one day
-        calendarContainer.appendChild(buildDaySlot(today));
+        calendarContainer.appendChild(buildDaySlot(today.getDate()));
     }
 }
