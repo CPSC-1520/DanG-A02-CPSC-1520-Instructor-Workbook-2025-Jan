@@ -643,6 +643,12 @@
 - **Today** *(Online)*
   - [ ] Intro - Assignment 3
   - [ ] Build a Calendar
+    - Starter Kit *(installs to [`~/src/024/Calendars`](./src/024/Calendars))*
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/024/Calendars ./src/024/Calendars
+      ```
+
 - **Homework**
 
 
