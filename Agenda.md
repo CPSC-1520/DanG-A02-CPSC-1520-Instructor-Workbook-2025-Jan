@@ -2,7 +2,7 @@
 
 > ***NOTE:** This agenda is copied from the previous term and needs to be adjusted to this semester. Otherwise, the topics are generally in the correct order.*
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#mar-20).
+> These are my notes on what I plan to teach in each [**upcoming class**](#apr-07-w13).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -646,7 +646,7 @@
     - Starter Kit *(installs to [`~/src/024/Calendars`](./src/024/Calendars))*
 
       ```ps
-      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A05-CPSC-1520-Instructor-Workbook-2025-Jan/sk/024/Calendars ./src/024/Calendars
+      pnpm dlx tiged --disable-cache --force CPSC-1520/DanG-A02-CPSC-1520-Instructor-Workbook-2025-Jan/sk/024/Calendars ./src/024/Calendars
       ```
 
 - **Homework**
