@@ -20,6 +20,9 @@ function buildCalendar(evt) {
     // Creating a date object with year/month only defaults the date to
     // the first date of the month
     let today = new Date(year, month - 1);  // This could be any day of the week
+    let endOfMonth = new Date(year, month, 0);
+    let minDays = endOfMonth.getDate() + today.getDay() + 1;
+    let weeks = minDays > 35 ? 6 : 5;
     // Adjust for when we want our calendar to start
     today.setDate(today.getDate() - (today.getDay() + 1));
     //            \____ 1 ______/   \___ offset _______/
@@ -35,7 +38,7 @@ function buildCalendar(evt) {
     }
 
     // Add the dates of the month (e.g.: 1, 2, 3, etc.)
-    for (let count = 0; count < 35; count++) {
+    for (let count = 0; count < days.length * weeks; count++) {
         today.setDate(today.getDate() + 1); // Add one day
         calendarContainer.appendChild(buildDaySlot(today.getDate()));
     }
