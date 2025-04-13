@@ -671,6 +671,7 @@
 
 - **Today** *(Online)*
   - [ ] Work Period - Assignment 3
+  - [ ] Invitation
 - **Homework**
 
 
